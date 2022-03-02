@@ -7,9 +7,7 @@ def training_model():
     """
     This fucntion builds a model from iris dataset
     Returns
-    -------
-    num
-        prediction_value
+   
     """
     data = load_iris()
     # print(data.DESCR)
