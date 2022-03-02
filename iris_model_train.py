@@ -5,8 +5,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 def training_model():
     """
-    This fucntion builds a model from iris dataset
-    Returns
+    This fucntion builds and returns a model from iris dataset
    
     """
     data = load_iris()
