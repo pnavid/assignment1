@@ -10,18 +10,7 @@ import iris_model
 
 
 class Test_iris_model(TestCase):
-    """
-    Class used for unit testing
-    Methods
-    -------
-    setUp()
-        sets up a trained model from iris dataset
-    test_accuracy()
-        tests the accuracy of both models by some dummy data
-    test_precision_recall_f1score_support()
-        test precision, recall, f1 score, support of the models
-    """
-
+    
     def setUp(self):
         data = load_iris()
 
