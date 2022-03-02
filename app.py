@@ -13,11 +13,11 @@ def basic():
     """
     route to display index.html
     parameters
-    -------
-    flask inputs like request..
+    **
+    flask request..
     Returns
-    -------
-    html template
+    **
+    html template for the commit
         returns index.html file
     """
 
